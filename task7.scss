@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font: 14px / 1.7 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+
+li {
+	list-style: none;
+}
+
+a {text-decoration: none;}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.container {
+	min-width: 1280px;
+}
+
+header {
+	height: 55px;
+	background-color: #fff;
+}
+
+.logo {
+	float: left;
+	margin-left: 50px;
+	margin-top: 15px;
+	span {font-size: 21px;vertical-align: top;}
+}
+
+nav {
+	float: right;
+	margin-right: 50px;
+	margin-top: 15px;
+	li {float: left;&:nth-child(6) a {color: #E34E52;background: url("../images/user_icon.png") no-repeat 0 50%;margin-left: 10px;}}
+	a {color: #999;padding: 1.3em;&:hover{color: #E34E52;border-bottom: 4px solid #E34E52;}	}
+}
+
+.banner {
+	background-image: url("../images/banner_img.jpg");
+	height: 690px;
+	background-size: cover;
+}
+
+.banner_text {
+	margin-top: 200px;
+	margin-left: 100px;
+	h3 {color: #fff;font-size: 4.5em;}
+	p {color: #fff;font-size: 1.8em;}
+	a {padding: 0.4em 3em;background: rgb(231, 79, 77);color: #fff;display: inline-block;margin-top: 50px;font-size: 2em;}
+}
