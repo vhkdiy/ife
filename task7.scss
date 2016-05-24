@@ -185,33 +185,65 @@ select {
 		float: left;
 		padding-top: 200px;
 		color: #fff;
-		a {color: #fff;border:1px solid #fff;padding:10px 30px;}
+		a {color: #fff;border:1px solid #fff;padding:10px 35px;}
 	}
 	.post-2 {
 		float: left;
 		width: 33%;
 		margin-top: 200px;
-		a {color: #FF5252;border:1px solid #FF5252;padding:10px 30px;}
+		h3,p {opacity: .7;}
+		a {color: #FF5252;border:1px solid #FF5252;padding:10px 35px;}
 	}
 	.post-3 {
 		float: left;
+		width: 33%;
 		height: 100%;
-		width: 34%;
 		background:url('../images/pic08.jpg') no-repeat;
-		background-size: cover;
 	}
 }
 
+.guild {
+	padding-bottom: 80px;
+	p {opacity: .7;}
+}
 .guild-head {
 	text-align: center;
 	margin: 7em 0;
-	h3 {font-size: 20px;}
-	p {opacity: .7;}
 }
 
 .guild-content {
-	
+	width: 1010px;
+	margin: 0 auto;
 	.content-left {
-		
+		width: 34%;
+		float: left;
+		strong p {margin-bottom: 1em;}
+		a {text-align: right;display: block;color: #000;opacity: .7;font-size: 10px;}
+	}
+	.content-right {
+		width: 60%;
+		float: right;
+		input,textarea {background-color: #EDEDEF;border:none;padding-left: 10px;margin-right: 15px;margin-bottom: 10px;}
+		.user_msg {width:285px;height: 40px;margin-bottom: 12px;}
+		.user_des {width: 590px;height: 100px;padding-top: 10px;resize: none;}
+		.sub_btn {width: 590px;height: 40px;}
+	}
+}
+
+footer {
+	width: 100%;
+	height: 400px;
+	background-color: #33363F;
+	text-align: center;
+	color: #fff;
+	padding-top: 4em;
+	h3 {font-size: 1.5em;font-weight: normal;}
+	.search_box {
+		width: 511px;
+		height: 41px;
+		margin: 30px auto;
+		input {height: 100%;border:none;float: left;}
+		.mail {width: 431px;padding-left: 10px;}
+		.submit  {width: 511px - 431px;background-color: rgb(112, 114, 120);color: #fff;font-size: 1.2em;}
 	}
 }
