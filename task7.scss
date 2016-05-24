@@ -175,8 +175,9 @@ select {
 	text-align: center;
 	font-size: 1.4em;
 	h3 {font-weight: normal;}
-	
-	.s-line {width: 35px;height: 2px;background-color: #fff;margin:20px auto;}
+	@mixin line {width: 35px;height: 2px;margin:20px auto 30px;}
+	.line-1 {@include line;background-color: #fff;}
+	.line-2 {@include line;background-color: #999;}
 	.post-1 {
 		width: 33%;
 		height: 100%;
@@ -184,13 +185,33 @@ select {
 		float: left;
 		padding-top: 200px;
 		color: #fff;
+		a {color: #fff;border:1px solid #fff;padding:10px 30px;}
 	}
 	.post-2 {
 		float: left;
 		width: 33%;
 		margin-top: 200px;
+		a {color: #FF5252;border:1px solid #FF5252;padding:10px 30px;}
 	}
 	.post-3 {
 		float: left;
+		height: 100%;
+		width: 34%;
+		background:url('../images/pic08.jpg') no-repeat;
+		background-size: cover;
+	}
+}
+
+.guild-head {
+	text-align: center;
+	margin: 7em 0;
+	h3 {font-size: 20px;}
+	p {opacity: .7;}
+}
+
+.guild-content {
+	
+	.content-left {
+		
 	}
 }
