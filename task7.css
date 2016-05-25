@@ -1,0 +1,352 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font: 14px / 1.7 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+.container {
+  min-width: 1280px; }
+
+header {
+  height: 55px;
+  background-color: #fff; }
+
+.logo {
+  float: left;
+  margin-left: 50px;
+  margin-top: 15px; }
+  .logo span {
+    font-size: 21px;
+    vertical-align: top; }
+
+nav {
+  float: right;
+  margin-right: 50px;
+  margin-top: 15px; }
+  nav li {
+    float: left; }
+    nav li:nth-child(6) a {
+      color: #E34E52;
+      background: url("../images/user_icon.png") no-repeat 0 50%;
+      margin-left: 10px; }
+  nav a {
+    color: #999;
+    padding: 1.3em; }
+    nav a:hover {
+      color: #E34E52;
+      border-bottom: 4px solid #E34E52; }
+
+.banner {
+  background-image: url("../images/banner_img.jpg");
+  height: 690px;
+  background-size: cover; }
+
+.banner_text {
+  margin-top: 200px;
+  margin-left: 100px; }
+  .banner_text h3 {
+    color: #fff;
+    font-size: 4.5em; }
+  .banner_text p {
+    color: #fff;
+    font-size: 1.8em; }
+  .banner_text a {
+    padding: 0.4em 3em;
+    background: #e74f4d;
+    color: #fff;
+    display: inline-block;
+    margin-top: 50px;
+    font-size: 2em; }
+
+.section-cell {
+  width: 100%;
+  height: 250px;
+  font-size: 0; }
+
+.cell {
+  display: inline-block;
+  width: 25%;
+  margin: 30px 0; }
+  .cell p {
+    text-align: center;
+    font-size: 13px;
+    padding: 0 82px;
+    border-right: 2px solid #999;
+    height: 55px;
+    opacity: .7; }
+  .cell img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px; }
+
+.section-text {
+  width: 100%;
+  height: 360px;
+  background: #EDEDED url("../images/big_logo.png") center 40% no-repeat; }
+  .section-text p {
+    font-size: 4em;
+    text-align: center;
+    padding-top: 220px;
+    opacity: .3; }
+
+.section-search {
+  width: 100%;
+  height: 340px;
+  background: url("../images/search_bac.jpg");
+  background-size: cover;
+  padding-top: 50px;
+  text-align: center; }
+  .section-search p {
+    color: #fff;
+    text-align: center; }
+  .section-search span {
+    width: 30px;
+    height: 10px;
+    border-top: 2px solid #fff;
+    display: inline-block; }
+
+select {
+  color: #7a7a7a;
+  width: 200px;
+  height: 35px;
+  margin-top: 55px;
+  margin-right: 20px; }
+  select option {
+    background-color: #ccc; }
+
+.search {
+  width: 200px;
+  height: 35px;
+  background-color: #BE4F48;
+  color: #fff;
+  border: none; }
+
+.pic {
+  width: 100%;
+  height: 500px;
+  background-color: #F8F8F8;
+  text-align: center; }
+
+.pic-post {
+  display: inline-block;
+  width: 20%;
+  margin-top: 50px; }
+
+.pic-2 {
+  width: 100%;
+  height: 565px; }
+
+.pic-l {
+  width: 66%;
+  height: 565px;
+  background: url("../images/pic07.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+  padding-top: 200px;
+  float: left; }
+  .pic-l:after {
+    content: ' ';
+    border-width: 15px 30px 15px 0;
+    border-style: solid;
+    border-color: transparent #fff transparent;
+    position: absolute;
+    top: 50%;
+    right: 0; }
+  .pic-l p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1; }
+  .pic-l .tagline-caption {
+    font-size: 3.5em; }
+  .pic-l .tagline-tiem {
+    font-size: 6em;
+    margin-bottom: 15px; }
+
+.pic-r {
+  float: right;
+  width: 34%;
+  text-align: center; }
+  .pic-r h3 {
+    margin-top: 50%;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px; }
+    .pic-r h3 span {
+      color: #BE4F48; }
+  .pic-r p {
+    width: 20em;
+    margin-left: 80px;
+    line-height: 2;
+    opacity: .7;
+    margin-bottom: 30px; }
+  .pic-r a {
+    color: #E91E63;
+    border: 1px solid #E91E63;
+    padding: 10px 20px; }
+  .pic-r input {
+    opacity: 0; }
+  .pic-r ul {
+    margin-top: 15px; }
+    .pic-r ul li {
+      background-color: #fff;
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      margin-right: 10px;
+      border: 1px solid #929292;
+      cursor: pointer; }
+    .pic-r ul .active {
+      background-color: #929292; }
+
+.post-wrap {
+  width: 100%;
+  height: 520px;
+  text-align: center;
+  font-size: 1.4em; }
+  .post-wrap h3 {
+    font-weight: normal; }
+  .post-wrap .line-1 {
+    width: 35px;
+    height: 2px;
+    margin: 20px auto 30px;
+    background-color: #fff; }
+  .post-wrap .line-2 {
+    width: 35px;
+    height: 2px;
+    margin: 20px auto 30px;
+    background-color: #999; }
+  .post-wrap .post-1 {
+    width: 33%;
+    height: 100%;
+    background-color: #FF5252;
+    float: left;
+    padding-top: 200px;
+    color: #fff; }
+    .post-wrap .post-1 a {
+      color: #fff;
+      border: 1px solid #fff;
+      padding: 10px 35px; }
+  .post-wrap .post-2 {
+    float: left;
+    width: 33%;
+    margin-top: 200px; }
+    .post-wrap .post-2 h3, .post-wrap .post-2 p {
+      opacity: .7; }
+    .post-wrap .post-2 a {
+      color: #FF5252;
+      border: 1px solid #FF5252;
+      padding: 10px 35px; }
+  .post-wrap .post-3 {
+    float: left;
+    width: 33%;
+    height: 100%;
+    background: url("../images/pic08.jpg") no-repeat; }
+
+.guild {
+  padding-bottom: 80px; }
+  .guild p {
+    opacity: .7; }
+
+.guild-head {
+  text-align: center;
+  margin: 7em 0; }
+
+.guild-content {
+  width: 1010px;
+  margin: 0 auto; }
+  .guild-content .content-left {
+    width: 34%;
+    float: left; }
+    .guild-content .content-left strong p {
+      margin-bottom: 1em; }
+    .guild-content .content-left a {
+      text-align: right;
+      display: block;
+      color: #000;
+      opacity: .7;
+      font-size: 10px; }
+  .guild-content .content-right {
+    width: 60%;
+    float: right; }
+    .guild-content .content-right input, .guild-content .content-right textarea {
+      background-color: #EDEDEF;
+      border: none;
+      padding-left: 10px;
+      margin-right: 15px;
+      margin-bottom: 10px; }
+    .guild-content .content-right .user_msg {
+      width: 285px;
+      height: 40px;
+      margin-bottom: 12px; }
+    .guild-content .content-right .user_des {
+      width: 590px;
+      height: 100px;
+      padding-top: 10px;
+      resize: none; }
+    .guild-content .content-right .sub_btn {
+      width: 590px;
+      height: 40px; }
+
+footer {
+  width: 100%;
+  height: 350px;
+  background-color: #33363F;
+  text-align: center;
+  color: #fff;
+  padding-top: 4em; }
+  footer h3 {
+    font-size: 1.5em;
+    font-weight: normal; }
+  footer .search_box {
+    width: 511px;
+    height: 41px;
+    margin: 30px auto; }
+    footer .search_box input {
+      height: 100%;
+      border: none;
+      float: left; }
+    footer .search_box .mail {
+      width: 431px;
+      padding-left: 10px; }
+    footer .search_box .submit {
+      width: 80px;
+      background-color: #707278;
+      color: #fff;
+      font-size: 1.2em; }
+    footer .search_box a {
+      font-size: 2em;
+      color: #fff;
+      display: inline-block;
+      margin-top: 1em;
+      margin-right: 0.7em; }
+
+.footer-b {
+  height: 58px;
+  background-color: #303039;
+  font-size: 12px;
+  padding: 28px 40px 0 100px; }
+  .footer-b span {
+    color: #fff; }
+  .footer-b a {
+    color: #fff;
+    float: right; }
